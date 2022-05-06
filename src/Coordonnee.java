@@ -3,7 +3,6 @@ public class Coordonnee
 
     private int x;
     private int y;
-    private String jessaie;
 
     /**
      * Constructeur d'objets de classe Coordonnee j'ecrit un truc pour voir le push
