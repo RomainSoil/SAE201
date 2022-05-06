@@ -1,4 +1,6 @@
 public class Robot extends Coordonnee
+
+    test
 {
     private int numRobot;
     private int capStokage;
@@ -35,4 +37,14 @@ public class Robot extends Coordonnee
         return this.capExtraction;
     }
 
+    public void recolter(Mine mine)
+    {
+        if (capStokage > 0 && capExtraction > 0 && mine.getNbMinerais() > 0)
+        {
+            capExtraction -=1;
+            capStokage -=1;
+        }
+    }
+
 }
+
