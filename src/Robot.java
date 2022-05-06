@@ -1,6 +1,5 @@
 public class Robot extends Coordonnee
 
-    test
 {
     private int numRobot;
     private int capStokage;
