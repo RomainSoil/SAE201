@@ -1,10 +1,14 @@
-public class Secteur extends Coordonnee {
-    int[][] secteur;
+public abstract class Secteur extends Coordonnee  {
+    String[][] secteur;
 
     public Secteur(int x, int y)
     {
         super(x,y);
-        this.secteur=new int[2][2];
+        this.secteur=new String[2][2];
     }
+
+    public void affichage() {
+
+    };
 }
 

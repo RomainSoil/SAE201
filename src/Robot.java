@@ -1,7 +1,7 @@
 public class Robot extends Coordonnee
 
 {
-    private int numRobot;
+    private int  numRobot;
     private int capStokage;
     private int capExtraction;
     private int nbMinAct;
